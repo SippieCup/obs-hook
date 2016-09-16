@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DllEntry">
+      <UniqueIdentifier>{0ac0a783-78a1-4cf8-ae0b-4116ba77e1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine">
+      <UniqueIdentifier>{9dc684cb-3159-411a-a03f-4aae29d423da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cCheat">
+      <UniqueIdentifier>{5e96ecea-e3e5-4c0b-9348-2302b2208bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cTools">
+      <UniqueIdentifier>{637f690c-7dab-425a-92d0-b7c88698c5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cTools\cApis">
+      <UniqueIdentifier>{ae412611-f6ec-44f3-809e-023ec9704c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cTools\cMiscs">
+      <UniqueIdentifier>{a55f39e5-ad9a-4376-8508-40ceee5cda9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cTools\cMemory">
+      <UniqueIdentifier>{dec2b8bf-635d-46d7-ab9f-7a9ab63b1020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cCheat\cAimbot">
+      <UniqueIdentifier>{a358f98c-1126-42bd-bb34-64d07e03cd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cTools\cVector">
+      <UniqueIdentifier>{e940c17b-ffd9-4c98-9aaa-cc986b103ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cCheat\cNetvars">
+      <UniqueIdentifier>{ee169793-6411-44a1-be12-c1010c6ee06e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cCheat\cMaths">
+      <UniqueIdentifier>{4ac11907-f9ec-4708-8d6b-af698dfbc2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cCheat\sdk">
+      <UniqueIdentifier>{b3170fd6-c57c-4546-a28c-16e0ca11578d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cCheat\cCvars">
+      <UniqueIdentifier>{f6992cef-9f02-4127-9beb-64d9d4538325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cCheat\sdk\cClientEngine">
+      <UniqueIdentifier>{1cf878eb-cc9d-4d8e-84a1-102e328bed5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cEngine\cCheat\sdk\cClientPlayer">
+      <UniqueIdentifier>{0fd01c93-7d54-417d-9a96-2ef9ef56196e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cEngine.h">
+      <Filter>cEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="cApis.h">
+      <Filter>cEngine\cTools\cApis</Filter>
+    </ClInclude>
+    <ClInclude Include="cMiscs.h">
+      <Filter>cEngine\cTools\cMiscs</Filter>
+    </ClInclude>
+    <ClInclude Include="cMemory.h">
+      <Filter>cEngine\cTools\cMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="cAimbot.h">
+      <Filter>cEngine\cCheat\cAimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="cVector.h">
+      <Filter>cEngine\cTools\cVector</Filter>
+    </ClInclude>
+    <ClInclude Include="cNetvars.h">
+      <Filter>cEngine\cCheat\cNetvars</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>DllEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="cMaths.h">
+      <Filter>cEngine\cCheat\cMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="cCvars.h">
+      <Filter>cEngine\cCheat\cCvars</Filter>
+    </ClInclude>
+    <ClInclude Include="cClientEngine.h">
+      <Filter>cEngine\cCheat\sdk\cClientEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="cClientPlayer.h">
+      <Filter>cEngine\cCheat\sdk\cClientPlayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DllEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="cEngine.cpp">
+      <Filter>cEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="cApis.cpp">
+      <Filter>cEngine\cTools\cApis</Filter>
+    </ClCompile>
+    <ClCompile Include="cMiscs.cpp">
+      <Filter>cEngine\cTools\cMiscs</Filter>
+    </ClCompile>
+    <ClCompile Include="cMemory.cpp">
+      <Filter>cEngine\cTools\cMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="cAimbot.cpp">
+      <Filter>cEngine\cCheat\cAimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="cVector.cpp">
+      <Filter>cEngine\cTools\cVector</Filter>
+    </ClCompile>
+    <ClCompile Include="cNetvars.cpp">
+      <Filter>cEngine\cCheat\cNetvars</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>DllEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="cMaths.cpp">
+      <Filter>cEngine\cCheat\cMaths</Filter>
+    </ClCompile>
+    <ClCompile Include="cCvars.cpp">
+      <Filter>cEngine\cCheat\cCvars</Filter>
+    </ClCompile>
+    <ClCompile Include="cClientEngine.cpp">
+      <Filter>cEngine\cCheat\sdk\cClientEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="cClientPlayer.cpp">
+      <Filter>cEngine\cCheat\sdk\cClientPlayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
